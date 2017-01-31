@@ -1,0 +1,48 @@
+body {
+
+}
+
+main {
+  min-height: 450px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid red;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+footer {
+  border: 1px solid red;
+}
+
+nav {
+  border: 1px solid red;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: red
+
+}
+
+nav ul li a:hover {
+  color: red
+}
+
+.image-holder{
+  height: 400px;
+  background: url('https://lumiere-a.akamaihd.net/v1/images/Darth-Vader_6bda9114.jpeg?region=0%2C23%2C1400%2C785&width=768' alt="I am your father") no-repeat center center;
+}
